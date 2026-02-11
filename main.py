@@ -2,7 +2,15 @@
 
 # Import random module to generate a random number
 
+import random  # Import the random module
+
+# Generate a random integer between 1 and 100
+random_number = random.randint(1, 100)
+
+print("Random number between 1 and 100:", random_number)
+
 # Function to get a valid integer input with error handling
+
 
 # Function to get a valid 'y' or 'n' response from the user
 
